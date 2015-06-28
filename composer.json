@@ -1,0 +1,16 @@
+{
+    "name": "solstar/jwt",
+    "description": "JWT implementation",
+    "authors": [
+        {
+            "name": "Gabriel Trujillo C.",
+            "email": "joaqt23@gmail.com"
+        }
+    ],
+    "require": {
+        "firebase/php-jwt": "^2.2"
+    },
+    "autoload" : {
+        "classmap": ["src/"]
+    }
+}
